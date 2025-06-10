@@ -1,2 +1,3 @@
 # Project-1
 Environmental Sound Classification System using Feature Fusion Method. 
+Our project was an Environmental Sound Classification system where we classified different types of sounds—like sirens, dog barks, and rain—into categories. We used a technique called feature fusion, where we combined three types of audio features: MFCCs, spectrograms, and scalograms. These are visual representations of sound. We then used AlexNet, a deep CNN model, to extract patterns from these features and classify the sounds. We achieved an accuracy of around 97% which is much better compared to the accuracy of one feature (Individually MFCC has 89%, Spectrogram has 92%, Scalogram has 89%) showing that our project is quite effective for tough sound classification tasks.
